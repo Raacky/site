@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Site de l'internet 2077</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+    <nav class="zone paul sticky">
+      <ul class="main-nav">
+        <li><a onclick="myAudioFunction('B');" preload="auto">Paul</a></li>
+        <li><a href="https://www.youtube.com/watch?v=ncgVwgV4KQw">Your dad</a></li>
+        <li><a href="https://www.google.com/">Just Google</a></li>
+        <li class="push"><a href="https://www.native-instruments.com/fr/products/komplete/samplers/kontakt-6/">Kontakt</a></li>
+      </ul>
+    </nav>
+
+  <div class="container zone"><img class="animate__animated animate__headShake animate__infinite cover1" src="src/etchebest d'avril 2.png"></div>
+
+  <a onclick="myAudioFunction('A');" preload="auto">
+  <div class="zone bck grid-wrapper">
+      <div class="box zone2"><img src="./src/coussin.jpg"></div>
+      <div class="box zone2"><img src="./src/saucisse.png"></div>
+      <div class="box zone2"><img src="./src/couscous.png"></div>
+      <div class="box zone2"><img src="./src/bigmom.png"></div>
+      <div class="box zone2"><img src="./src/nasa.png"></div>
+      <div class="box zone2"><img src="./src/fendi.jpeg"></div>
+      <div class="box zone2"><img src="./src/keanu.gif"></div>
+      <div class="box zone2"><img src="./src/stonk.gif"></div>
+  </div>
+  </a>
+
+ <script>
+     var aAudio = new Audio('src/fart.mp3');
+     var bAudio = new Audio('src/paul.mp3');
+     var cAudio = new Audio('src/god.mp3');
+     function myAudioFunction(letter) {
+         if(letter == 'A') {
+             aAudio.play();
+         } else if(letter == 'B') {
+             bAudio.play();
+         } else if(letter == 'C') {
+             cAudio.play();
+         }
+         
+     }
+ </script>
+
+  <footer class="zone yellow"><a onclick="myAudioFunction('C');" preload="auto">Fait par Nono avec beaucoup ded</a></footer>
+</body>
+</html>
